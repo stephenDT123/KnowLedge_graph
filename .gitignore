@@ -1,0 +1,16 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.idea/
+
+models/graphrag_output/
+models/processed_text.txt
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

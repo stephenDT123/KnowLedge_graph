@@ -1,0 +1,26 @@
+graph TD
+    A[知识点: Python变量] -->|先修| B[知识点: 数据类型]
+    B -->|支撑| C[学习目标: 掌握变量赋值]
+    C -->|覆盖| D[评测项: 变量操作题]
+    A -->|相关| E[技能: 变量声明]
+    E -->|示例| F[资源: 代码示例]
+    D -->|误区| G[错误类型: 类型混淆]
+    subgraph 先修路径维度
+        A --> B
+    end
+    subgraph 难度进阶维度
+        B[难度: 初级] --> C[难度: 中级]
+    end
+    subgraph 掌握度维度
+        C[掌握度: 80%] --> D[掌握度: 60%]
+    end
+    subgraph 评测覆盖维度
+        D --> G
+    end
+    style A fill:#f9f,stroke:#333
+    style B fill:#bbf,stroke:#333
+    style C fill:#bfb,stroke:#333
+    style D fill:#fbb,stroke:#333
+    style E fill:#fbf,stroke:#333
+    style F fill:#bff,stroke:#333
+    style G fill:#fff,stroke:#f66
